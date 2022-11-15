@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="MSc. Computer Science">
+  <meta name="description" content="We introduce the Conditional Independence Regression CovariancE(CIRCE), a measure of conditional independence for multivariate continuous-valued variables. CIRCE applies as a regularizer in settings where we wish to learn neural features φ(X) of data X to estimate a target Y , while being conditionally independent of a distractor Z given Y . Both Z and Y are assumed to be continuous-valued but relatively low dimensional, whereas X and its features may be complex and high dimensional. Relevant settings include domain-invariant learning, fairness, and causal learning. The procedure requires just a single ridge regression from Y to kernelized features of Z, which can be done in advance. It is then only necessary to enforce independence of φ(X) from residuals of this regression, which is possible with attractive estimation properties and consistency guarantees. By contrast, earlier measures of conditional feature dependence require multiple regressions for each step of feature learning, resulting in more severe bias and variance, and greater computational cost. When sufficiently rich features are used, we establish that CIRCE is zero if and only if φ(X) ⊥⊥ Z | Y . In experiments we show superior performance to previous methods on challenging benchmarks, including learning conditionally invariant image features.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://namratadeka.github.io/post/">
+  <link rel="alternate" hreflang="en-us" href="https://namratadeka.github.io/publication/circe/">
 
   
 
@@ -248,14 +248,12 @@
   
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Namrata Deka">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://namratadeka.github.io/post/">
+  <link rel="canonical" href="https://namratadeka.github.io/publication/circe/">
 
   
   
@@ -274,18 +272,61 @@
   <meta property="twitter:creator" content="@Namratadeka">
   
   <meta property="og:site_name" content="Namrata Deka">
-  <meta property="og:url" content="https://namratadeka.github.io/post/">
-  <meta property="og:title" content="Posts | Namrata Deka">
-  <meta property="og:description" content="MSc. Computer Science"><meta property="og:image" content="https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://namratadeka.github.io/publication/circe/">
+  <meta property="og:title" content="Efficient Conditionally Invariant Representation Learning | Namrata Deka">
+  <meta property="og:description" content="We introduce the Conditional Independence Regression CovariancE(CIRCE), a measure of conditional independence for multivariate continuous-valued variables. CIRCE applies as a regularizer in settings where we wish to learn neural features φ(X) of data X to estimate a target Y , while being conditionally independent of a distractor Z given Y . Both Z and Y are assumed to be continuous-valued but relatively low dimensional, whereas X and its features may be complex and high dimensional. Relevant settings include domain-invariant learning, fairness, and causal learning. The procedure requires just a single ridge regression from Y to kernelized features of Z, which can be done in advance. It is then only necessary to enforce independence of φ(X) from residuals of this regression, which is possible with attractive estimation properties and consistency guarantees. By contrast, earlier measures of conditional feature dependence require multiple regressions for each step of feature learning, resulting in more severe bias and variance, and greater computational cost. When sufficiently rich features are used, we establish that CIRCE is zero if and only if φ(X) ⊥⊥ Z | Y . In experiments we show superior performance to previous methods on challenging benchmarks, including learning conditionally invariant image features."><meta property="og:image" content="https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2022-11-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-11-15T14:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://namratadeka.github.io/publication/circe/"
+  },
+  "headline": "Efficient Conditionally Invariant Representation Learning",
+  
+  "datePublished": "2022-11-01T00:00:00Z",
+  "dateModified": "2022-11-15T14:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Namrata Deka"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Namrata Deka",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "We introduce the Conditional Independence Regression CovariancE(CIRCE), a measure of conditional independence for multivariate continuous-valued variables. CIRCE applies as a regularizer in settings where we wish to learn neural features φ(X) of data X to estimate a target Y , while being conditionally independent of a distractor Z given Y . Both Z and Y are assumed to be continuous-valued but relatively low dimensional, whereas X and its features may be complex and high dimensional. Relevant settings include domain-invariant learning, fairness, and causal learning. The procedure requires just a single ridge regression from Y to kernelized features of Z, which can be done in advance. It is then only necessary to enforce independence of φ(X) from residuals of this regression, which is possible with attractive estimation properties and consistency guarantees. By contrast, earlier measures of conditional feature dependence require multiple regressions for each step of feature learning, resulting in more severe bias and variance, and greater computational cost. When sufficiently rich features are used, we establish that CIRCE is zero if and only if φ(X) ⊥⊥ Z | Y . In experiments we show superior performance to previous methods on challenging benchmarks, including learning conditionally invariant image features."
+}
+</script>
+
+  
 
   
 
@@ -293,10 +334,13 @@
   
 
 
+  
 
 
 
-  <title>Posts | Namrata Deka</title>
+
+
+  <title>Efficient Conditionally Invariant Representation Learning | Namrata Deka</title>
 
 </head>
 
@@ -571,6 +615,79 @@
 
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Efficient Conditionally Invariant Representation Learning</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -580,37 +697,311 @@
 
 
 
-
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Posts</h1>
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=dJruFeSRym1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We introduce the Conditional Independence Regression CovariancE(CIRCE), a measure of conditional independence for multivariate continuous-valued variables. CIRCE applies as a regularizer in settings where we wish to learn neural features φ(X) of data X to estimate a target Y , while being conditionally independent of a distractor Z given Y . Both Z and Y are assumed to be continuous-valued but relatively low dimensional, whereas X and its features may be complex and high dimensional. Relevant settings include domain-invariant learning, fairness, and causal learning. The procedure requires just a single ridge regression from Y to kernelized features of Z, which can be done in advance. It is then only necessary to enforce independence of φ(X) from residuals of this regression, which is possible with attractive estimation properties and consistency guarantees. By contrast, earlier measures of conditional feature dependence require multiple regressions for each step of feature learning, resulting in more severe bias and variance, and greater computational cost. When sufficiently rich features are used, we establish that CIRCE is zero if and only if φ(X) ⊥⊥ Z | Y . In experiments we show superior performance to previous methods on challenging benchmarks, including learning conditionally invariant image features.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/source-themes/">Source Themes</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://namratadeka.github.io/publication/circe/&amp;text=Efficient%20Conditionally%20Invariant%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://namratadeka.github.io/publication/circe/&amp;t=Efficient%20Conditionally%20Invariant%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Efficient%20Conditionally%20Invariant%20Representation%20Learning&amp;body=https://namratadeka.github.io/publication/circe/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://namratadeka.github.io/publication/circe/&amp;title=Efficient%20Conditionally%20Invariant%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Efficient%20Conditionally%20Invariant%20Representation%20Learning%20https://namratadeka.github.io/publication/circe/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://namratadeka.github.io/publication/circe/&amp;title=Efficient%20Conditionally%20Invariant%20Representation%20Learning" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
-
-  
-  
-
   
 
 
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/namrata-deka/avatar_hu6b7664f523075193f9f11d79c1c9dcfa_98216_270x270_fill_q90_lanczos_center.jpg" alt="Namrata Deka">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://namratadeka.github.io/">Namrata Deka</a></h5>
+        <h6 class="card-subtitle">MSc. Computer Science</h6>
+        <p class="card-text">My research interests include machine learning, causality and computer vision.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:dnamrata@cs.ubc.ca" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Namratadeka" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/namratadeka" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/mmd-b-fair/">MMD-B-Fair: Learning Fair Representations with Statistical Testing</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
 </div>
 
       
