@@ -1,41 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <priority>0</priority>
+    <loc>https://namratadeka.github.io/publication-type/3/</loc>
+    <lastmod>2022-11-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <priority>0</priority>
+    <loc>https://namratadeka.github.io/publication/mmd-b-fair/</loc>
+    <lastmod>2022-11-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
+    <loc>https://namratadeka.github.io/</loc>
+    <lastmod>2022-11-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>https://namratadeka.github.io/publication_types/</loc>
+    <lastmod>2022-11-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://namratadeka.github.io/publication/</loc>
+    <lastmod>2022-11-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://namratadeka.github.io/tag/source-themes/</loc>
+    <lastmod>2022-11-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://namratadeka.github.io/tags/</loc>
+    <lastmod>2022-11-15T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <priority>0</priority>
+    <loc>https://namratadeka.github.io/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://namratadeka.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://namratadeka.github.io/author/namrata-deka/</loc>
+  </url>
+  
+  <url>
+    <loc>https://namratadeka.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://namratadeka.github.io/talk/</loc>
   </url>
   
 </urlset>

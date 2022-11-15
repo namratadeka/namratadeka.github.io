@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="MSc. Computer Science">
+  <meta name="description" content="We introduce a method, MMD-B-Fair, to learn fair representations of data via kernel two-sample testing. We find neural features of our data where a maximum mean discrepancy (MMD) test cannot distinguish between different values of sensitive attributes, while preserving information about the target. Minimizing the power of an MMD test is more difficult than maximizing it (as done in previous work), because the test threshold&#39;s complex behavior cannot be simply ignored. Our method exploits the simple asymptotics of block testing schemes to efficiently find fair representations without requiring the complex adversarial optimization or generative modelling schemes widely used by existing work on fair representation learning. We evaluate our approach on various datasets, showing its ability to &#34;hide&#34; information about sensitive attributes, and its effectiveness in downstream transfer tasks.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://namratadeka.github.io/publication_types/">
+  <link rel="alternate" hreflang="en-us" href="https://namratadeka.github.io/publication/mmd-b-fair/">
 
   
 
@@ -248,14 +248,12 @@
   
 
   
-  <link rel="alternate" href="/publication_types/index.xml" type="application/rss+xml" title="Namrata Deka">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://namratadeka.github.io/publication_types/">
+  <link rel="canonical" href="https://namratadeka.github.io/publication/mmd-b-fair/">
 
   
   
@@ -274,18 +272,61 @@
   <meta property="twitter:creator" content="@Namratadeka">
   
   <meta property="og:site_name" content="Namrata Deka">
-  <meta property="og:url" content="https://namratadeka.github.io/publication_types/">
-  <meta property="og:title" content="Publication_types | Namrata Deka">
-  <meta property="og:description" content="MSc. Computer Science"><meta property="og:image" content="https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://namratadeka.github.io/publication/mmd-b-fair/">
+  <meta property="og:title" content="MMD-B-Fair: Learning Fair Representations with Statistical Testing | Namrata Deka">
+  <meta property="og:description" content="We introduce a method, MMD-B-Fair, to learn fair representations of data via kernel two-sample testing. We find neural features of our data where a maximum mean discrepancy (MMD) test cannot distinguish between different values of sensitive attributes, while preserving information about the target. Minimizing the power of an MMD test is more difficult than maximizing it (as done in previous work), because the test threshold&#39;s complex behavior cannot be simply ignored. Our method exploits the simple asymptotics of block testing schemes to efficiently find fair representations without requiring the complex adversarial optimization or generative modelling schemes widely used by existing work on fair representation learning. We evaluate our approach on various datasets, showing its ability to &#34;hide&#34; information about sensitive attributes, and its effectiveness in downstream transfer tasks."><meta property="og:image" content="https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-11-15T14:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-11-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-11-15T14:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://namratadeka.github.io/publication/mmd-b-fair/"
+  },
+  "headline": "MMD-B-Fair: Learning Fair Representations with Statistical Testing",
+  
+  "datePublished": "2022-11-01T00:00:00Z",
+  "dateModified": "2022-11-15T14:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Namrata Deka"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Namrata Deka",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "We introduce a method, MMD-B-Fair, to learn fair representations of data via kernel two-sample testing. We find neural features of our data where a maximum mean discrepancy (MMD) test cannot distinguish between different values of sensitive attributes, while preserving information about the target. Minimizing the power of an MMD test is more difficult than maximizing it (as done in previous work), because the test threshold's complex behavior cannot be simply ignored. Our method exploits the simple asymptotics of block testing schemes to efficiently find fair representations without requiring the complex adversarial optimization or generative modelling schemes widely used by existing work on fair representation learning. We evaluate our approach on various datasets, showing its ability to \"hide\" information about sensitive attributes, and its effectiveness in downstream transfer tasks."
+}
+</script>
+
+  
 
   
 
@@ -293,10 +334,13 @@
   
 
 
+  
 
 
 
-  <title>Publication_types | Namrata Deka</title>
+
+
+  <title>MMD-B-Fair: Learning Fair Representations with Statistical Testing | Namrata Deka</title>
 
 </head>
 
@@ -571,54 +615,384 @@
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>MMD-B-Fair: Learning Fair Representations with Statistical Testing</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Publication_types</h1>
+
+
+<div class="article-metadata">
 
   
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/mmd-b-fair/mmd-b-fair.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We introduce a method, MMD-B-Fair, to learn fair representations of data via kernel two-sample testing. We find neural features of our data where a maximum mean discrepancy (MMD) test cannot distinguish between different values of sensitive attributes, while preserving information about the target. Minimizing the power of an MMD test is more difficult than maximizing it (as done in previous work), because the test threshold&rsquo;s complex behavior cannot be simply ignored. Our method exploits the simple asymptotics of block testing schemes to efficiently find fair representations without requiring the complex adversarial optimization or generative modelling schemes widely used by existing work on fair representation learning. We evaluate our approach on various datasets, showing its ability to &ldquo;hide&rdquo; information about sensitive attributes, and its effectiveness in downstream transfer tasks.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
   
+  <a class="badge badge-light" href="/tag/source-themes/">Source Themes</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://namratadeka.github.io/publication/mmd-b-fair/&amp;text=MMD-B-Fair:%20Learning%20Fair%20Representations%20with%20Statistical%20Testing" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://namratadeka.github.io/publication/mmd-b-fair/&amp;t=MMD-B-Fair:%20Learning%20Fair%20Representations%20with%20Statistical%20Testing" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=MMD-B-Fair:%20Learning%20Fair%20Representations%20with%20Statistical%20Testing&amp;body=https://namratadeka.github.io/publication/mmd-b-fair/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://namratadeka.github.io/publication/mmd-b-fair/&amp;title=MMD-B-Fair:%20Learning%20Fair%20Representations%20with%20Statistical%20Testing" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=MMD-B-Fair:%20Learning%20Fair%20Representations%20with%20Statistical%20Testing%20https://namratadeka.github.io/publication/mmd-b-fair/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://namratadeka.github.io/publication/mmd-b-fair/&amp;title=MMD-B-Fair:%20Learning%20Fair%20Representations%20with%20Statistical%20Testing" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
   
+
+
+
+
+
+  
     
     
     
-    <div>
-      <h2><a href="/publication-type/3/" >3</a></h2>
-      <div class="article-style">
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
         
+        <img class="avatar mr-3 avatar-circle" src="/author/namrata-deka/avatar_hu6b7664f523075193f9f11d79c1c9dcfa_98216_270x270_fill_q90_lanczos_center.jpg" alt="Namrata Deka">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://namratadeka.github.io/">Namrata Deka</a></h5>
+        <h6 class="card-subtitle">MSc. Computer Science</h6>
+        <p class="card-text">My research interests include machine learning, causality and computer vision.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:dnamrata@cs.ubc.ca" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Namratadeka" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/namratadeka" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
       </div>
     </div>
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
 
+
+
+
+
+  </div>
 </div>
 
       
