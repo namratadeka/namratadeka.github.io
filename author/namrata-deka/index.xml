@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Namrata Deka* | Namrata Deka</title>
+    <title>Namrata Deka</title>
     <link>https://namratadeka.github.io/author/namrata-deka/</link>
       <atom:link href="https://namratadeka.github.io/author/namrata-deka/index.xml" rel="self" type="application/rss+xml" />
-    <description>Namrata Deka*</description>
+    <description>Namrata Deka</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 14:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://namratadeka.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Namrata Deka*</title>
+      <url>https://namratadeka.github.io/author/namrata-deka/avatar_hu6b7664f523075193f9f11d79c1c9dcfa_98216_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Namrata Deka</title>
       <link>https://namratadeka.github.io/author/namrata-deka/</link>
     </image>
     
     <item>
-      <title>Efficient Conditionally Invariant Representation Learning</title>
-      <link>https://namratadeka.github.io/publication/circe/</link>
-      <pubDate>Mon, 01 May 2023 14:00:00 +0000</pubDate>
-      <guid>https://namratadeka.github.io/publication/circe/</guid>
+      <title>MMD-B-Fair: Learning Fair Representations with Statistical Testing</title>
+      <link>https://namratadeka.github.io/publication/mmd-b-fair/</link>
+      <pubDate>Tue, 25 Apr 2023 14:00:00 +0000</pubDate>
+      <guid>https://namratadeka.github.io/publication/mmd-b-fair/</guid>
       <description></description>
     </item>
     
-  </channel>
-</rss>
-   <item>
+    <item>
       <title>Learning Privacy-Preserving Deep Kernels with Known Demographics</title>
       <link>https://namratadeka.github.io/publication/ppai2022/</link>
       <pubDate>Fri, 25 Feb 2022 14:00:00 +0000</pubDate>
